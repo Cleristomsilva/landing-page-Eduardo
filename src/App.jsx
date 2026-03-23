@@ -48,7 +48,7 @@ export default function App() {
           </h2>
           
           <p className="text-xl md:text-2xl mb-6 text-gray-300 max-w-2xl mx-auto font-light leading-relaxed">
-            Serviço Técnico em Engenharia e Topografia
+            Serviço Profissional na áre de calculos estruturais e medições topográficas com utilização de tecnologias avançadas.
           </p>
           
           
