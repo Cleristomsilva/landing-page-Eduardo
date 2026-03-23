@@ -53,7 +53,7 @@ export default function App() {
           
           
           <div className="flex flex-col sm:flex-row gap-6 mb-12 justify-center items-center">
-            <a href={whatsappLink} className="group inline-flex items-center gap-3 bg-yellow-500 hover:bg-yellow-400 text-gray-950 font-semibold py-4 px-10 rounded-xl transition duration-300 shadow-xl shadow-yellow-500/20 text-lg">
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-3 bg-yellow-500 hover:bg-yellow-400 text-gray-950 font-semibold py-4 px-10 rounded-xl transition duration-300 shadow-xl shadow-yellow-500/20 text-lg">
               Solicitar Orçamento
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
             </a>
@@ -152,7 +152,7 @@ export default function App() {
       <footer className="py-20 text-center bg-gray-900 text-white">
         <h2 className="text-3xl font-bold mb-6">Deseja um orçamento?</h2>
         <p className="mb-8 text-gray-400">Clique no botão abaixo para falar diretamente comigo no WhatsApp.</p>
-        <a href={whatsappLink} className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full transition transform hover:scale-105">
+        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full transition transform hover:scale-105">
           <Phone size={20} />
           Falar no WhatsApp agora
         </a>
